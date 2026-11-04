@@ -19,6 +19,12 @@ public class StudentGradeApp {
 
         System.out.println("Student: " + student);
         System.out.println("Mark: " + mark);
+        
+          if (mark >= 50) { 
+            System.out.println("Result: PASS"); 
+        } else { 
+            System.out.println("Result: FAIL"); 
+        } 
     }
     
 }
